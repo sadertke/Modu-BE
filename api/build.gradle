@@ -1,0 +1,13 @@
+jar {
+    enabled = true
+}
+
+
+dependencies {
+    implementation 'com.h2database:h2:2.0.202'
+    implementation( project(':core'))
+}
+
+test {
+    useJUnitPlatform()
+}
